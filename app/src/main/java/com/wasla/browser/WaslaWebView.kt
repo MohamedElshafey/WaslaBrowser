@@ -13,9 +13,6 @@ class WaslaWebView : WebView {
     constructor(context: Context, attrs: AttributeSet, defStyle: Int) : super(context, attrs, defStyle)
 
     init {
-//        settings.javaScriptEnabled = true
-//        settings.loadWithOverviewMode = true
-//        settings.useWideViewPort = true
         settings.javaScriptEnabled = true
         settings.setAppCacheEnabled(true)
         settings.javaScriptCanOpenWindowsAutomatically = true
