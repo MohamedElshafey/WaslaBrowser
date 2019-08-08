@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Browser</string>
+    <string name="search">Search</string>
+    <string name="googleSearchPrefix">https://www.google.com/search?q=%s</string>
+</resources>
