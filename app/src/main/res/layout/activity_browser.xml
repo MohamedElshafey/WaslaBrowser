@@ -33,6 +33,7 @@
                     android:textSize="21sp"
                     android:maxLines="1"
                     android:singleLine="true"
+                    android:inputType="textAutoComplete|textAutoCorrect"
                     android:imeOptions="actionSearch"
                     android:textStyle="bold"
                     search="@{webView}"

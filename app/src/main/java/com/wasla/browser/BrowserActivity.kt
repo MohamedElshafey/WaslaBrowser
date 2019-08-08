@@ -12,10 +12,5 @@ class BrowserActivity : AppCompatActivity() {
         val binding = DataBindingUtil
             .setContentView<ActivityBrowserBinding>(this@BrowserActivity, R.layout.activity_browser)
 
-//        val browserViewModel = BrowserViewModel()
-//
-//        binding.browserVM = browserViewModel
-
-
     }
 }
