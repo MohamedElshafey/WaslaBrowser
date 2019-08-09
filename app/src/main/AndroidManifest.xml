@@ -13,7 +13,7 @@
             android:usesCleartextTraffic="true"
             android:hardwareAccelerated="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".BrowserActivity">
+        <activity android:name=".browser.BrowserActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

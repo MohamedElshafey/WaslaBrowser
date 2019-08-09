@@ -1,4 +1,4 @@
-package com.wasla.browser
+package com.wasla.browser.customviews
 
 import android.content.Context
 import android.util.AttributeSet
@@ -19,14 +19,9 @@ class WaslaWebView : WebView {
         settings.setSupportMultipleWindows(true)
         webViewClient = object : WebViewClient() {
             override fun shouldOverrideUrlLoading(view: WebView, url: String): Boolean {
-                // do your handling codes here, which url is the requested url
-                // probably you need to open that url rather than redirect:
                 view.loadUrl(url)
-                return false // then it is not handled by default action
+                return false
             }
         }
     }
-
-
 }
-
