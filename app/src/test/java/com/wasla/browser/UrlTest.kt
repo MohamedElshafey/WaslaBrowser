@@ -17,6 +17,8 @@ class UrlTest {
         assertThat(isValidUrl("eg.linkedin")).isFalse()
         assertThat(isValidUrl("https://truth.dev")).isTrue()
         assertThat(isValidUrl("truth.dev")).isTrue()
+        assertThat(isValidUrl("test.org")).isTrue()
+        assertThat(isValidUrl("facebook")).isFalse()
     }
 
 }
